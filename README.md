@@ -1,1 +1,1 @@
-Also, install (fisher)[https://github.com/jorgebucaran/fisher] 
+Also, install [fisher](https://github.com/jorgebucaran/fisher) 
