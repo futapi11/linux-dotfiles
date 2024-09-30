@@ -1,1 +1,2 @@
-Also, install [fisher](https://github.com/jorgebucaran/fisher) 
+manual work:
+  - Install [fisher](https://github.com/jorgebucaran/fisher) 
