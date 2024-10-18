@@ -1,0 +1,29 @@
+{
+  "markdown a": {
+    // name
+    "prefix": "mda", // string
+    "body": "mda in .helix: ${1:abc} : ${2:cde}", // string
+    "description": "test a info content in .helix",
+  },
+  "markdown b": {
+    "prefix": [
+      // array
+      "mdb",
+    ],
+    "body": "mdb: ${1:abc} : ${2:cde}", // string
+    "description": "test b info content",
+  },
+  "markdown c": {
+    "prefix": [
+      // array
+      "mdc",
+      "mdd",
+    ],
+    "body": [
+      // array
+      "mda: ${1:abc} : ${2:cde}",
+      "test",
+    ],
+    "description": "test c,d info content",
+  },
+}
