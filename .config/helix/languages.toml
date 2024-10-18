@@ -1,3 +1,14 @@
+[language-server.emmet-ls]
+args = ["--stdio"]
+command="emmet-ls"
+
+[language-server.hx-lsp]
+command = "hx-lsp"
+
+[language-server.eslint]
+command = "eslint"
+
 [[language]]
 name = "html"
-auto-format = false
+auto-format = true
+language-servers = ["vscode-html-language-server", "emmet-ls", "eslint", "hx-lsp"]
