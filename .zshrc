@@ -1,5 +1,5 @@
 
- autoload -Uz compinit promptinit
+autoload -Uz compinit promptinit
 compinit
 promptinit
 
@@ -10,5 +10,8 @@ alias ls="exa --icons=always"
 
 path+=("$HOME/.cargo/bin/" "$HOME/.local/share/pnpm/" "$HOME/.local/bin/")
 
+export PAGER=bat
+export EDITOR=nvim
+export BROWSER=firefox
 
 eval "$(direnv hook zsh)"
