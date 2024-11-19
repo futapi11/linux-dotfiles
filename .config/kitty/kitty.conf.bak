@@ -1,0 +1,32 @@
+tab_bar_style powerline
+map ctrl+d select_tab
+
+background_opacity 1
+# background #000000
+# foreground #cef3ff
+# cursor #ffffff
+# selection_background #44475a
+# selection_foreground #222330
+# color0: #0B080E,
+# color1: #BB104C,
+# color2: #9E205B,
+# color3: #2D2F9C,
+# color4: #4345BC,
+# color5: #4956EB,
+# color6: #DF46A2,
+# color7: #a9c3ec,
+# color8: #7688a5,
+# color9: #BB104C,
+# color10: #9E205B,
+# color11: #2D2F9C,
+# color12: #4345BC,
+# color13: #4956EB,
+# color14: #DF46A2,
+# color15: #a9c3ec
+
+
+
+# BEGIN_KITTY_THEME
+# Alucard
+include current-theme.conf
+# END_KITTY_THEME
